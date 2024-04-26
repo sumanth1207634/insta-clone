@@ -1,0 +1,98 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+.container {
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  border:2px solid #a6a1a1;
+  border-radius: 20px;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3897f0;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #357ae8;
+}
+
+a {
+  text-decoration: none;
+  color: #3897f0;
+}
+
+.or-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.or-line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.or-container span {
+  padding: 0 10px;
+  color: #999;
+}
+
+.app-store {
+  margin-bottom: 20px;
+}
+
+.app-store p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.app-store img {
+  width: 130px;
+  margin-right: 10px;
+}
+
+/* Adjusting styles for smaller screens */
+@media (max-width: 400px) {
+  .container {
+    padding: 40px 10px;
+  }
+}

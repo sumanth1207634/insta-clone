@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-  
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" alt="Instagram Logo" class="logo">
+        <form action="#" method="post">
+            <h2>Login</h2>
+            <div class="input-container">
+                <input type="text" name="username" id="username" placeholder="Username" required>
+            </div>
+            <div class="input-container">
+                <input type="password" name="password" id="password" placeholder="Password" required>
+            </div>
+            <button type="submit">Log in</button>
+            <a href="#">Forgotten your password?</a>
+        </form>
+        <div class="or-container">
+            <div class="or-line"></div>
+            <span>OR</span>
+            <div class="or-line"></div>
+        </div>
+        <div class="app-store">
+          <p>Get the app.</p>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-google"></i></a>
+      </div>
+      
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+        <div class="app-store">
+          <p>Get the app.</p>
+          <a href="#"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play"></a>
+          <a href="#"><img src="https://i.pinimg.com/736x/50/01/3d/50013d2110d1ae2111c57477811c9a16.jpg" alt="Microsoft Store"></a>
+      </div>
+      
+    </div>
 </body>
 </html>
