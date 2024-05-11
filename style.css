@@ -7,13 +7,14 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #fafafa;
+  background-color: #FFFFFF;
 }
 
 .container {
   max-width: 350px;
   margin: 0 auto;
   padding: 40px 20px;
+  background-color: #FFFFFF;
   text-align: center;
   border:2px solid #a6a1a1;
   border-radius: 20px;
